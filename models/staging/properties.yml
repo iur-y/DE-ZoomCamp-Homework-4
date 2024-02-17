@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: stoked-champion-410819 
+    schema: week4_raw_taxi 
+    tables:
+      - name: raw_fhv
+      - name: raw_green
+      - name: raw_yellow
